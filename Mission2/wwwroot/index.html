@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>On a Mission</title>
+
+    <!-- favicon links -->
+    <link rel="shortcut icon" href="https://freepngimg.com/save/26729-sunshine-transparent/908x791" type="image/x-icon" />
+    <link rel="icon" href="https://freepngimg.com/save/26729-sunshine-transparent/908x791" type="image/x-icon" />
+
+
+    <!--Styles (Bootstrap and Custom CSS) -->
+    <link href="lib/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../css/default.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="header">
+        <h1>Keanna Nabrotzky</h1>
+    </div>
+    <div class="container">
+
+
+        <div class="main">
+
+            <br />
+            <img src="../img/Keanna.jpg" class="img" />
+            <br />
+            <h3>Course Goals</h3>
+            <p>In IS 413 I hope to learn how to use the skills I have developed in web development on a larger scale. I also want to understand enterprise level web development and get a greater glimpse into what programming is like in a real business setting.</p>
+            <br />
+            <h3>Top Jobs</h3>
+            <ul>
+                <li>UI/UX Developer</li>
+                <li>Product Manager</li>
+                <li>Web Developer</li>
+            </ul>
+        </div>
+        <div class="calc calculator">
+            <form>
+                <h3>Grade Calculator</h3>
+                <label for="assignments">Assignments Grade:</label>
+                <input class="form-control" type="number" id="assignments" />
+                <br />
+                <label for="groupproject">Group Project Grade:</label>
+                <input class="form-control" type="number" id="groupproject" />
+                <br />
+                <label for="quizzes">Quizzes Grade:</label>
+                <input class="form-control" type="number" id="quizzes" />
+                <br />
+                <label for="exams">Exams Grade:</label>
+                <input class="form-control" type="number" id="exams" />
+                <br />
+                <label for="intex">INTEX Grade:</label>
+                <input class="form-control" type="number" id="intex" />
+                <br />
+                <input type="button" id="calcButton" value="Calculate" class="btn btn-secondary" />
+                <br />
+            </form>
+            <br />
+            <br />
+            <p id="grade"></p>
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <!-- jquery and bootstrap scripts, custom calculator script -->
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../js/calculator.js"></script>
+</body>
+</html>

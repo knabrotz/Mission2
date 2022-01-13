@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\lib\NewFolder1\**" />
+    <Content Remove="wwwroot\lib\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\lib\NewFolder1\**" />
+    <None Remove="wwwroot\lib\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\Bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+</Project>
